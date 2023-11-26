@@ -7,7 +7,7 @@ const exphbs = require("express-handlebars");
 const hbs = exphbs.create({ helpers: require("./utils/helpers") });
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 const sess = {
   secret: 'Super secret secret',
   cookie: {
