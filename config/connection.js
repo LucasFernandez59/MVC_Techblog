@@ -12,7 +12,7 @@ require('dotenv').config();
 //       // },
 //     });
 
-let sequalize;
+let sequelize;
 
 if (process.env.MYSQL_URL) {
   sequalize = new Sequelize(process.env.MYSQL_URL);
