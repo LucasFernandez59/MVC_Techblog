@@ -1,4 +1,3 @@
-console.log("Sequelize version:", require('sequelize').version);
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcryptjs = require('bcryptjs');
